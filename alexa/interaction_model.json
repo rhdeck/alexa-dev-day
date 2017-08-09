@@ -1,0 +1,53 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.NoIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.YesIntent",
+      "samples": []
+    },
+    {
+      "name": "GetTweet",
+      "samples": [
+        "What did Donald Tweet {date}",
+        "What did Trump Tweet {date}",
+        "What did Donald Trump Tweet {date}",
+        "What did the President Tweet {date}",
+        "What did you tweet {date}",
+        "What did you say {date}",
+        "What about {date}"
+      ],
+      "slots": [
+        {
+          "name": "date",
+          "type": "AMAZON.DATE",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "NoIntent",
+      "samples": [
+        "No",
+        "No Way",
+        "Uh Uh",
+        "Stop"
+      ],
+      "slots": []
+    }
+  ]
+}
